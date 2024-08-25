@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.explanation {
+    margin-top: 30px;
+}
+
+.explanation h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.explanation p {
+    margin-bottom: 10px;
+}
